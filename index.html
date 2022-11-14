@@ -12,49 +12,55 @@
   <link rel="stylesheet" href="./css/all.min.css">
   <!-- main style -->
   <link rel="stylesheet" href="./css/style.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <main class="landing__page">
-    <header class="content">
-      <nav>
-        <div class="logo">e</div>
-        <a href="#">see all <i class="fa-solid fa-arrow-right"></i></a>
-      </nav>
-      <article>
-        <h1>discover <br> events <br> anywhere</h1>
-        <form>
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <input type="search" name="search" id="search" placeholder="location">
-        </form>
-        <ul class="locations__container">
-          <li class="location">nyc</li>
-          <li class="location">atlanta</li>
-          <li class="location">houston</li>
-          <li class="location">chicago</li>
-          <li class="location">la</li>
-          <li class="location">dallas</li>
-          <li class="location">phonix</li>
-          <li class="location lt--plus">+149</li>
-        </ul>
-      </article>
-      <footer>
-        <p class="copy">&copy; all rights reserved.</p>
-        <p class="terms">terms privacy</p>
-      </footer>
-    </header>
+    <aside class="content">
+      <div class="content__container">
+        <nav>
+          <div class="logo">e</div>
+          <a class="view" href="#">see all <i class="fa-solid fa-arrow-right"></i></a>
+        </nav>
+        <article>
+          <h1 class="title">Discover <br> <span class="events">events</span> <br> anywhere</h1>
+          <form>
+            <button><i class="search--icon fa-solid fa-magnifying-glass"></i></button>
+            <input class="search" type="search" name="search" id="search" placeholder="location...">
+          </form>
+          <ul class="locations__container">
+            <li class="location">nyc</li>
+            <li class="location">atlanta</li>
+            <li class="location">houston</li>
+            <li class="location">chicago</li>
+            <li class="location">la</li>
+            <li class="location">dallas</li>
+            <li class="location">phonix</li>
+            <li class="location lt--plus">+149</li>
+          </ul>
+        </article>
+        <footer>
+          <p class="copy">&copy; all rights reserved.</p>
+          <p class="terms">terms privacy</p>
+        </footer>
+      </div>
+    </aside>
     <section class="gallery">
       <div class="col1 col">
-        <div class="img__container"></div>
-        <div class="img__container"></div>
+        <div class="img__container img--one"></div>
+        <div class="img__container img--two"></div>
       </div>
       <div class="col2 col">
-        <div class="img__container"></div>
-        <div class="img__container"></div>
+        <div class="img__container img--three"></div>
+        <div class="img__container img--four"></div>
       </div>
       <div class="col3 col">
-        <div class="img__container"></div>
-        <div class="img__container"></div>
+        <div class="img__container img--five"></div>
+        <div class="img__container img--six"></div>
       </div>
     </section>
   </main>
